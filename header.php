@@ -42,6 +42,17 @@
 		endif;
 	?>
 
+<!-- 	<div class="row">
+		<div class="small-12 large-4 columns">
+			<a class="navbrand" href="\">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" alt="Maxxil">
+			</a>
+		</div>
+		<div class="small-12 large-8 columns right">
+			<p class="navinfo" >A nova face da odontologia estética<br>Contate agora: tel (11) 3509-6411 | (11) 2204-2410<br>atendimento@maxxil.com.br</p>
+		</div>
+	</div>
+ -->
 	<?php get_template_part( 'parts/top-bar' ); ?>
 
 <section class="container" role="document">

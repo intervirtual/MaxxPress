@@ -14,6 +14,16 @@
 </section>
 <div id="footer-container">
 	<footer id="footer">
+		<a href="#" class="icon-button twitter">
+		  <i class="fi-social-twitter"></i><span></span>
+		</a>
+		<a href="#" class="icon-button facebook">
+		  <i class="fi-social-facebook"></i><span></span>
+		</a>
+		<a href="#" class="icon-button gplus">
+		  <i class="fi-social-google-plus"></i><span></span>
+		</a>
+	
 		<?php do_action( 'foundationpress_before_footer' ); ?>
 		<?php dynamic_sidebar( 'footer-widgets' ); ?>
 		<?php do_action( 'foundationpress_after_footer' ); ?>

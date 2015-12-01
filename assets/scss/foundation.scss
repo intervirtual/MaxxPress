@@ -70,3 +70,183 @@
 @import "site/front";
 @import "site/featured";
 @import "site/footer";
+
+.logo {
+	width: 200px;
+	margin-left: 5px;
+}
+@media only screen and (min-width: 40.063em) {
+	.top-bar-container{
+		margin-bottom: 0px;
+	}
+	.top-bar {
+		height: 7rem;
+		padding-top: 4rem;
+		position: relative;
+//		background-color: red;
+	}
+	.social-icons {
+		position: absolute;
+		right: 0;
+		top: -45px;
+	}
+	.social-info {
+		position: absolute;
+		right: 0;
+		top: -4rem;
+		line-height: 1.4em;
+		text-align: right;
+
+		padding: 0 $topbar-link-padding;
+		color: $topbar-link-color;
+		font-weight: $topbar-link-weight;
+		text-transform: $topbar-link-text-transform;
+		font-family: $topbar-link-font-family;
+		font-size: $topbar-link-font-size;
+	}
+	.logo {
+		width: 200px;
+		margin-top: -1.3rem;
+		padding: 0;
+		padding-left: $topbar-link-padding;
+	}
+	.top-bar-footer{
+		border-color: #accd97;
+		border-width: 2px;
+		margin: 0px;
+	}
+}
+
+
+// .hero {
+// 	background: url('http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg') no-repeat center center;
+// 	background-size: cover;
+// 	height: 100vh;
+// 	&:before {
+// 		content: '';
+// 		position: absolute;
+// 		top: 0;
+// 		right: 0;
+// 		bottom: 0;
+// 		left: 0;
+// 		background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+// 		opacity: .8; 
+// 	}
+// 	.intro {
+// 		padding: 3rem;
+// 		position: relative;
+// 		top: 50%;
+// 		transform: translateY(-50%);
+// 	}
+// 	h1 {
+// 		color: #fff;
+// 		font-size: 1.5rem;
+// 		line-height: 1.5em;
+// 		letter-spacing: -0.025em;
+// 		font-weight: 300;
+// 		text-align: center;
+// 	}
+// 	p {
+// 		color: #fff;
+// 		line-height: 1.75em;
+// 		font-weight: 200;
+// 		text-align: center;
+// 		margin-bottom: 2rem;
+// 	}
+// 	.tech-img {
+// 		background: url('http://static.pexels.com/wp-content/uploads/2015/02/apple-hand-iphone-6-4322-525x350.jpg') no-repeat center center;
+// 		background-size: cover;
+// 		height: 9rem;
+// 		width: 9rem;
+// 		border-radius: 50%;
+// 		display: block;
+// 		margin: 0 auto;
+// 	}
+// 	@media only screen and (min-width: 40.063em) {
+// 		.tech-img {
+// 			height: 18rem;
+// 			width: 18rem;
+// 		}
+// 		h1 {
+// 			padding-top: 4.5rem;
+// 			text-align: right;
+// 			font-size: 2.5rem;
+// 		}
+// 		p {
+// 			text-align: right;
+// 		}
+// 	}
+// }
+
+
+    // 8: 		background: url("../images/demo/marquee-stars.svg") repeat scroll 0 0 #074E68;
+
+.hero {
+	height: 82vh;
+	margin-bottom: 3rem;
+}
+.hero-1 {
+	background: url('../images/bg01.png') no-repeat center center;
+	background-size: auto;    //cover;   //content; //
+	.banner{
+		text-align: right;
+		h1{
+			color: white;
+			text-transform: uppercase;
+			font-weight: bold;
+			text-shadow: 3px 6px 6px #000000;
+		}
+		p{	font-weight: bold;	}
+		a{	text-transform: uppercase;	font-weight: bold;	}
+	}
+}
+.hero-2 {
+	background: url('../images/bg02.png') no-repeat center center;
+	background-size: cover;   //content; //auto;    //
+}
+.hero-4 {
+	background: url('../images/bg03.png') no-repeat center center;
+	background-size: cover;   //content; //auto;    //
+}
+.hero-4 {
+	background: url('../images/bg04.png') no-repeat center center;
+	background-size: cover;   //content; //auto;    //
+	height: 100vh;
+}
+
+.circle-bg {
+	margin-top: -2rem;
+	text-align: center;
+	opacity: 0.9;
+	border-radius: 50%;
+	height: 12rem;
+	width: 12rem;
+	@media only screen and (min-width: 64.063em) {
+		margin: 0 auto;
+		margin-top: 2rem;
+		height: 13rem;
+		width: 13rem;
+	}
+	p {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+.quote-1 {
+	@extend .circle-bg;
+	background: #333;
+	color: #fff;
+	z-index: 9999999;
+	position: relative;
+	@media only screen and (min-width: 64.063em) {
+		margin-right: 10rem;
+	}
+}
+.quote-2 {
+	@extend .circle-bg;
+	background: #F2F1EF;
+	p {
+		padding: 2rem;
+	}
+}

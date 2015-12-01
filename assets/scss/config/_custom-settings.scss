@@ -40,9 +40,9 @@ $maxx-green  : #02a355;
 $maxx-red    : #c75344;
 
 // We use these as default colors throughout
-$primary-color: $maxx-green; //ascjr $primary-color: #008CBA;
-$secondary-color: $maxx-orange; //ascjr $secondary-color: #e7e7e7;
-$alert-color: $maxx-red; //ascjr $alert-color: #f04124;
+$primary-color: $maxx-green;
+$secondary-color: $maxx-orange;
+$alert-color: $maxx-red;
 $success-color: #43AC6A;
 $warning-color: #f08a24;
 $info-color: #a0d3e8;
@@ -60,39 +60,29 @@ $header-text-rendering: optimizeLegibility;
 /////////
 
 // Background color for the top bar
-$topbar-bg-color: $maxx-white; //ascjr $topbar-bg-color: $oil;
+$topbar-bg-color: $maxx-white;
 $topbar-bg: $topbar-bg-color;
 // Set the link colors and styles for top-level nav
 $topbar-link-weight: bold;
-$topbar-link-color: $maxx-green; //ascjr $topbar-link-color: $white;
-$topbar-link-color-hover: $maxx-white; //ascjr $topbar-link-color-hover: $white;
-$topbar-link-color-active: $maxx-white; //ascjr $topbar-link-color-active: $white;
-$topbar-link-color-active-hover: $maxx-white; //ascjr $topbar-link-color-active-hover: $white;
+$topbar-link-color: $maxx-green;
+$topbar-link-color-hover: $maxx-white;
+$topbar-link-color-active: $maxx-white;
+$topbar-link-color-active-hover: $maxx-white;
 
-$topbar-link-bg: $topbar-bg; //ascjr
-$topbar-link-bg-hover: $maxx-orange; //ascjr $topbar-link-bg-hover: $jet;
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: $maxx-orange;
 $topbar-link-bg-color-hover: $maxx-orange;
 $topbar-link-bg-active: $maxx-orange;
 $topbar-link-bg-active-hover: scale-color($maxx-orange, $lightness: -14%);
+$topbar-link-text-transform: uppercase;
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $maxx-white; //ascjr $topbar-dropdown-bg: $oil;
-$topbar-dropdown-link-color: $maxx-green; //ascjr $topbar-dropdown-link-color: $white;
-$topbar-dropdown-link-color-hover: $topbar-link-color-hover; //ascjr
-$topbar-dropdown-link-bg: $maxx-white; //ascjr $topbar-dropdown-link-bg: $oil;
-$topbar-dropdown-link-bg-hover: $maxx-orange; //ascjr $topbar-dropdown-link-bg-hover: $jet;
-$topbar-dropdown-label-bg: $maxx-white; //ascjr $topbar-dropdown-label-bg: $oil;
-
-
-// Top menu icon styles
-$topbar-menu-link-transform: uppercase;
-// $topbar-menu-link-font-size: rem-calc(13);
-// $topbar-menu-link-weight: $font-weight-bold;
-// $topbar-menu-link-color: $white;
-// $topbar-menu-icon-color: $white;
-// $topbar-menu-link-color-toggled: $jumbo;
-// $topbar-menu-icon-color-toggled: $jumbo;
-// $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
+$topbar-dropdown-bg: $maxx-white;
+$topbar-dropdown-link-color: $maxx-green;
+$topbar-dropdown-link-color-hover: $topbar-link-color-hover;
+$topbar-dropdown-link-bg: $maxx-white;
+$topbar-dropdown-link-bg-hover: $maxx-orange;
+$topbar-dropdown-label-bg: $maxx-white;
 
 /////////
 
